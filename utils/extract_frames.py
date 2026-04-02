@@ -12,7 +12,6 @@ def extract_frames(video_path, output_folder):
         if not ret:
             break
 
-        # extract every 15 frames
         if frame_count % 15 == 0:
             filename = os.path.join(
                 output_folder,
@@ -37,8 +36,6 @@ def process_folder(input_folder, output_folder):
         if video.endswith(".mp4"):
             extract_frames(video_path, output_folder)
 
-
-# Update paths according to your screenshot
 
 process_folder(
     r"C:\Users\deepa\Downloads\archive\Celeb-real",

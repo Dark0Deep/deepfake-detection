@@ -11,10 +11,8 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # Load model
 model = resnet18(weights=ResNet18_Weights.DEFAULT)
 
-# SAME as training
 model.fc = nn.Linear(model.fc.in_features, 2)
 
-# Load trained weights
 model.load_state_dict(
     torch.load("model/deepfake_model.pth", map_location=device)
 )
