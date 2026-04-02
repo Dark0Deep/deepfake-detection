@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pth
+dataset/
+dataset_split/
+faces/
+uploads/
+.env

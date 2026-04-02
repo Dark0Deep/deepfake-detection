@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.upload-box {
+    margin: 20px;
+}
+
+input[type="file"] {
+    padding: 10px;
+}
+
+button {
+    background: #22c55e;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #16a34a;
+}
+.result-box {
+    background: #1e293b;
+    padding: 30px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
+}
