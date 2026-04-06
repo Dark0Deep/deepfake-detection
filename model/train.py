@@ -11,9 +11,9 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print("Using Device:", device)
 
 
-train_dir = "../dataset_split/train"
-val_dir = "../dataset_split/validation"
-test_dir = "../dataset_split/test"
+train_dir = "../faces/train"
+val_dir = "../faces/validation"
+test_dir = "../faces/test"
 
 
 transform = transforms.Compose([
